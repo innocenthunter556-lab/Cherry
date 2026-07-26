@@ -1,0 +1,24 @@
+{
+  "name": "sri-sai-boutique",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.170.0",
+    "lucide-react": "^0.383.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "@tailwindcss/vite": "^4.3.2",
+    "tailwindcss": "^4.3.2",
+    "vite": "^8.1.5"
+  },
+  "_notes": "Versions current as of writing (Tailwind v4.3.2, Vite v8.1.5) -- run `npm install` then `npm outdated` and update anything stale before deploying."
+}
